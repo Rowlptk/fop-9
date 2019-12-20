@@ -9,3 +9,4 @@ void main()
         ((n2>n3)?printf("n2 is greater"): printf("n3 is greater"));
 }
 
+// conditionals ==> if , if..else, if..else if ...else, nested if , switch.. case
