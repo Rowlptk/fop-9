@@ -31,3 +31,9 @@ void main()
         printf("Year is Invalid!");
     }
 }
+
+
+Assignment ==> 1-31==> month 1,3,5,7,8,10,12
+                1-30 ==> month 4,6,9,11
+                1-28 ==> month 2
+                1-29 ==> month 2 year==> leap
