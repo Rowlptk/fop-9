@@ -1,17 +1,23 @@
 #include<stdio.h>
-
-
-user
-
-void main()
-{
-    printf("My name           is\nRahul\tPathak.\n");
-    printf("---*\n--***\n-*****\n*******");
-}
-
-// single line comment  // left to right print
+// comment
 /*
-multi
-line
+multiline
 comment
 */
+//\ is escape character
+//Left to Right printing
+void main()
+{
+    //printf("Hello\n           Wor\tld!");
+    printf("   *\n  ***\n *****\n*******");
+}
+
+
+/*
+---*
+--***
+-*****
+*******
+*/
+
+

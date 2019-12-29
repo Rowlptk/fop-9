@@ -1,28 +1,41 @@
-#include<stdio.h>
+//if.. else if.. else
 
+//switch ... case ==> constant
+
+#include<stdio.h>
 void main()
 {
-    float n1, n2;
-    char ch;
-    printf("Enter Two numbers : ");
-    scanf("%f%f",&n1,&n2);
-    printf("\n + , - , * , /  : ");
-    scanf(" %c",&ch);
-    switch(ch)
+    int n;
+    printf("Enter a day number: ");
+    scanf("%d",&n);
+    switch(n)
     {
-    case '+':
-        printf("%.2f + %.2f = %.2f",n1,n2,(n1+n2));
+    case 1:
+        printf("Sunday");
         break;
-    case '-':
-        printf("%.2f - %.2f = %.2f",n1,n2,(n1-n2));
+    case 2:
+        printf("Monday");
         break;
-    case '*':
-        printf("%.2f * %.2f = %.2f",n1,n2,(n1*n2));
+    case 3:
+        printf("Tuesday");
         break;
-    case '/':
-        printf("%.2f / %.2f = %.2f",n1,n2,(n1/n2));
+    case 4:
+        printf("Wednesday");
+        break;
+    case 5:
+        printf("Thursday");
+        break;
+    case 13:
+    case 6:
+        printf("Friday");
+        break;
+    case 7:
+        printf("Saturday");
         break;
     default:
-        printf("Invalid Symbol!");
+        printf("Invalid Day number!");
     }
 }
+
+
+

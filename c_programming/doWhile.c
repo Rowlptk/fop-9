@@ -1,12 +1,11 @@
-// press 5 to exit
-
+#include<stdio.h>
 
 void main()
 {
-    int n;
+    int i = 0;
     do
     {
-        printf("Press 5 to exit : ");
-        scanf("%d",&n);
-    }while(n != 5);
+        printf("Count %d\n",i);
+        i--;
+    }while(i>=1);
 }
